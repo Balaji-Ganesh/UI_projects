@@ -18,7 +18,9 @@ import SettingsIcon from "@mui/icons-material/Settings";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
+import AddIcon from "@mui/icons-material/Add";
 import { useState } from "react";
+import { Fab } from "@material-ui/core";
 
 function SideBar() {
   const [darkMode, setDarkMode] = useState(false);
@@ -109,6 +111,7 @@ function SideBar() {
           </ListItem>
         </List>
       </Box>
+
     </Box>
   );
 }
